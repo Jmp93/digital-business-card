@@ -12,6 +12,7 @@ body {
   align-items: center;
   min-height: 100vh;
   font-family: 'Inter', sans-serif;
+  background-color: #1a1b21b3;
 }
 
 a {
@@ -20,7 +21,7 @@ a {
 
 .main-container {
   width: 90%;
-  max-width: 320px;
+  max-width: 400px;
   border-radius: 10px;
   background-color: #1a1b21;
   color: #fff;
@@ -99,7 +100,8 @@ img {
   padding: 1rem 2rem;
 }
 
-.section-title {
+.section-title,
+.interests-title {
   font-size: 16px;
   font-weight: 700;
   margin-bottom: 5px;
@@ -107,9 +109,28 @@ img {
   text-align: left; /* Left align the heading */
 }
 
-.section-text {
+.section-text,
+.interests-text {
   font-size: 10.25px;
   line-height: 1.5; /* Makes the small text much easier to read */
   color: #dcdedf;
   text-align: left; /* Left align the paragraph */
+}
+
+.interests-section {
+  padding: 0 2rem 2rem;
+}
+
+.social-links {
+  background-color: #050506;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.social-link i {
+  font-size: 1.6rem;
+  color: #fff;
 }
