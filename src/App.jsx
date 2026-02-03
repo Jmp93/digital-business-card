@@ -1,7 +1,11 @@
+import Info from './components/Info.jsx';
+import About from './components/About.jsx';
+
 export default function App() {
   return (
-    <div className="container">
-      <h1>My Digital Business Card</h1>
+    <div className="main-container">
+      <Info />
+      <About />
     </div>
   );
 }
